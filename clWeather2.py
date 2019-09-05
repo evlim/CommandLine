@@ -11,7 +11,7 @@ import sys
 def k2f(temp):
     return '{:4.1f}'.format((temp - 273.15) * 9./5. + 32.)
 
-print(sys.argv[0])  # shuold be Python filename
+print(sys.argv[0])  # should be Python filename
 locZip = sys.argv[1]
 try:
     int(locZip)
